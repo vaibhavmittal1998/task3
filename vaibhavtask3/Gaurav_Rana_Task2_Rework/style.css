@@ -1,0 +1,1063 @@
+html {
+    overflow-x: hidden; }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden; 
+    margin: 0;
+}
+
+.dropdown {
+    display: none;
+}
+
+
+#upper_header {
+    
+}
+
+#social{
+    float: left;
+    vertical-align: top;
+    width: 30%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#logo_section {
+    float: left;
+    width: 25%;
+    margin-left: 100px;
+}
+
+
+#header_contact{
+    float: left;
+    vertical-align: top;
+    width: 21%;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+#list_contact {
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#contact_btn {
+    color: white;
+    background-color: #BB131F;
+    padding: 10px;
+}
+
+/* #featured_image {
+    background-image: url("./images/banner.png");
+} */
+
+#nav_list1 {
+    float: left;
+}
+
+#nav_list2 {
+    float: right;
+    margin-right: 80px;
+}
+.burger-menu{
+    display: none;
+}
+
+
+.cleardiv {
+    clear: both;
+}
+
+#nav {
+    background-color: rgb(223, 221, 221);
+    width: 100%;
+    position: absolute;
+    margin-top: -50px;
+    z-index: -1;
+}
+div#nav div ul {
+    list-style: none;
+}
+
+div#nav div ul.navlist2 {
+    float:right;
+}
+
+div#nav div ul.navlist2 li {
+    padding-left: 20px;
+}
+
+.h_item {
+    display: inline;
+}
+
+.links {
+    list-style: none;
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 25px;
+    color: grey;
+}
+
+/* Banner section */
+
+#banner {
+    background-image: url("./images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    width: 100%;
+}
+
+#main_slogan {
+    float: left;
+    width: 30%;
+}
+
+.main_line {
+    background-color: #202020;
+    transform: skew(20deg);
+    padding: 8px 15px;
+}
+
+.linetxt {
+    transform: skew(-20deg);
+    font-size: 25px;
+    margin-left: 2px;
+    color: white;
+}
+
+#line1 {
+    margin-top: 100px;
+    margin-left: 170px;
+    width: 44%;
+}
+
+#line2 {
+    width: 45%;
+    margin-left: 260px;
+}
+
+#line3 {
+    width: 45%;
+    margin-left: 410px;
+}
+
+#ques1 {
+    margin-top:30px;
+    margin-left: 250px;
+    width: 305px;    
+}
+
+#ques2 {
+    margin-left: 425px;
+    width: 200px;
+}
+
+.second_line {
+    background-color: white;
+    transform: skew(20deg);
+    padding: 5px 10px;
+}
+
+.second_txt {
+    transform: skew(-20deg);
+    font-size: 22px;
+    margin-left: 2px;
+    color: #800B00
+}
+
+#lady {
+    float:right;
+    bottom: 0px;
+    height: 450px;
+}
+
+#highlighted_section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(223, 221, 221);;
+}
+
+#highlighted_section_content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.highlighted_card {
+    display: inline-block;
+    margin: 0 15px;
+    vertical-align: top;
+}
+
+.right_part_highlighted {
+    float: right;
+    padding: 25px 10px;
+    color: darkred;
+}
+
+#stats {
+    font-size: 30px;
+}
+
+#stats_text {
+    font-size: 25px;
+    color: #C17679;
+}
+
+#card_section{
+    width: 100%;
+}
+
+#card_section_content {
+    width: 80%;
+    margin: 0 auto;
+}
+.card {
+    box-shadow: 5px 5px 5px grey;
+    display: inline-block;
+    padding: 15px;
+    margin: 0 38px;
+}
+.card_img {
+    height: 140px;
+}
+
+.card_title {
+    color: #B80F00;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.card_summ {
+    font-size: 13px;
+    padding: 8px;
+}
+
+#card1{
+    background: url("./images/role_impact_ic.png") no-repeat;
+    background-position: bottom right;
+    margin-left: 0px;
+}
+
+#card2 {
+    background: url("./images/our_service_ic.png") no-repeat;
+    background-position: bottom right;
+}
+
+#card3{
+    background: url("./images/get_involved_ic.png") no-repeat;
+    background-position: bottom right;
+    margin-right: 0px;
+}
+
+.card_action {
+    width: 42%;
+    background-color: #A6121C;
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+/*
+div.card_thumb img{
+    width:75%;
+}
+
+.card_left {
+    width: 60%;
+    float: left;
+}
+
+.card_thumb {
+    width: 40%;
+    float: left;
+    text-align: right;
+}*/
+
+#donate_section{
+    width: 100%;
+    padding: 30px 0;
+    height: 83px;
+}
+
+#donate_section_content {
+    width: 80%;
+    margin: 0 auto;
+    height: 83px;
+}
+
+#donate_msg {
+    background-color: #383737;
+    color: white;
+    font-size: 26px;
+    width: 35%;
+    padding: 10px;
+    float: left;
+}
+
+#donate_divider {
+    float: left;
+}
+
+div#donate_divider img {
+    height: 82px;
+}
+
+#donate_lines {
+    float: left;
+    padding: 10px 60px;
+}
+
+.d_line {
+    margin: 5px;
+    font-size: 20px;
+}
+
+#donate_btn {
+    background-color: #BA141F;
+    transform: skew(20deg);
+    float: left;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 18px;
+}
+
+#donate_btn_txt {
+    transform: skew(-20deg);
+}
+#event_section {
+    margin-top: 35px;
+    background: url('./images/event_bg.png') no-repeat center;
+}
+
+#event_section_content {
+    width:70%;
+    margin: 0 auto;
+    
+}
+
+
+.division4{
+    background: url("./images/event_bg.png") no-repeat center;
+    width: 100%;
+    height: 400px;
+    margin: 10px;
+}
+.div4_part1{
+    float: left;
+    margin: 10px;
+    margin-left: 180px;
+    margin-top: 20px;
+    width: 20%;
+}
+#heading_div4{
+    font-size: 20px;
+}
+#heading_min{
+    color: rgb(63, 63, 63);
+}
+#info_div4_min{
+    color: rgb(109, 107, 107);
+    font-size: 14px;
+    margin-top: 10px;
+}
+#view_all_event_btn{
+    background-color: #A6121C;
+    border-radius: 3px;
+    width: 200px;
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    height: 30px;
+    border: none;
+    margin-top: 10px;
+}
+
+.form{
+    background-color: rgb(92, 92, 92);
+    width: 350px;
+    margin-top: 30px;
+    height: 345px;
+    margin-right: 90px;
+    float: right;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+h5{
+    color: white;
+    text-align: center;
+}
+.form_content{
+    text-align: center;
+    padding: 5px;
+    padding-top: 30px;
+    margin-top: 10px;
+}
+.textback{
+    background-color: white;
+    width: 140px;
+    height: 20px;
+}
+#textblock1{
+    float: left;
+    margin-left: 30px;
+}
+#textblock2{
+    float: right;
+    margin-right: 30px;
+}
+#clearing{
+    clear: both;
+}
+#textblock3{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 290px;
+}
+#textblock4{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 290px;
+}
+.fn{
+    text-align: left;
+    width: 100%;
+}
+#sub_ques_btn{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.801);
+    color: white;
+    font-size: 21px;
+    margin: 20px;
+    margin-left: 50px;
+    width: 250px;
+    height: 40px;
+}
+
+/* contact us */
+#contact_section {
+    background-image: url("./images/contact_us_bg.png");
+    width: 100%;
+}
+
+#contact_content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#form_container{
+    vertical-align: top;
+}
+form{
+    margin: 10px;
+}
+form input{
+    display: block;
+    margin: 10px 0;
+}
+#form_left_side{
+    float: left;
+}
+#form_right_side{
+    float: right;
+    margin-left: 5px;
+}
+
+#contact_action {
+    background-color: #A6121C;
+    border-radius: 3px;
+    width: 220px;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    border: none;
+}
+
+#contact_heading {
+    color: white;
+    font-size: 22px;
+}
+
+#contact_msg {
+    color: white;
+}
+
+
+#left_part {
+    float: left;
+}
+#right_part {
+   display: inline-block;
+   margin-left: 250px;
+}
+
+#contact_img {
+    width: 370px;
+    height: 210px;
+    border: #ffffff solid 3px;
+}
+
+/* copyright */
+#copyright{
+    background-color: #202020;
+    color: white;
+}
+div#copyright div {
+    margin-left: 180px;
+    padding: 15px;
+}
+
+/* tablet media queries */
+
+@media screen and (max-width: 991px) {
+
+    /* header */
+    #header_contact {
+        float: right;
+    }
+
+    div.logo img{
+        width: 312px;
+    }
+
+    .logo {
+        position: relative;
+        z-index: 4;
+        
+    }
+
+    ul#nav_list1, ul#nav_list2 {
+        display: none;
+    }
+
+    div#nav div {
+        padding: 9px;
+    }
+
+    #nav {
+        margin-top: -45px;
+        z-index: 2;
+    }
+
+    .h_item {
+        float: left;
+        padding: 0;
+    }
+
+    #list_contact {
+        float: right;
+        margin-right: 15px;
+    }
+
+    .contact_padding {
+        padding-top: 10px;
+        margin-left: 5px;
+        font-size: 13px;
+    }
+    .burger-menu{
+        display:block
+    }
+
+    .burger-menu-icon {
+        width: 30px;
+        height: 30px;
+    }
+    #nav_links {
+        display: none;
+    }
+
+    #contact_btn {
+        padding: 8px;
+        border-radius: 3px;
+    }
+
+    /* banner */
+    #lady {
+        width: 50%;
+        height: 300px;
+    }
+
+    .linetxt {
+        font-size: 15px;
+    }
+
+    .second_txt{
+        font-size: 15px;
+    }
+
+    #ques1{
+        width: 205px;
+        margin-top: 19px;
+        margin-left: 196px;
+    }
+    #ques2{
+        width: 136px;
+        margin-left: 280px;
+        margin-bottom: 70px;
+    }
+
+    #line1 {
+        margin-top: 56px;
+        margin-left: 127px;
+        width: 49%;
+    }
+
+    #line2 {
+        width: 48%;
+        margin-left: 182px;
+    }
+    #line3 {
+        width: 48%;
+        margin-left: 238px;
+    }
+
+    /* highlighted_section  */
+    #highlighted_section_content {
+        width: 90%
+    }
+    div.highlighted_card img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #stats{
+        font-size: 15px;
+    }
+
+    #stats_text {
+        font-size: 15px;
+    }
+
+    /* card layout */
+    #card_section_content {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .card {
+        width: 215px;
+        height: 260px;
+        margin: 6px;
+    }
+
+    .card_img {
+        height: 91px;
+    }
+
+    .card_title {
+        font-size: 14px;
+    }
+
+    .card_summ {
+        font-size: 13px;
+    }
+
+    .card_action {
+        width: 53%;
+    }
+
+    /* donate section */
+
+    #donate_section_content {
+        width: 95%;
+    }
+
+    /* Event section */
+    .div4_part1 {
+        margin-left: 25px;
+    }
+
+    .form {
+        margin-right: 25px;
+    }
+    /* contact */
+    #contact_content {
+        width: 90%;
+    }
+
+    /* Dropdown Button */
+.drop-a{
+    display: block;
+    text-decoration: none;
+    color:darkgray;
+    padding: 5px 0px;
+}
+.dropbtn {
+    background-color: #727171;
+    color: white;
+    padding: 4px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #727171;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0 0 10px grey;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  div.dropdown .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+  .menu_bar {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
+  }
+
+
+
+  /* mobile device media queries */
+
+@media screen and (max-width: 767px) {
+
+    /* header */
+    #social{
+    float: left;
+    vertical-align: top;
+    width: 30%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#logo_section {
+    float: left;
+    width: 20%;
+    position: relative;
+}
+
+#logo {
+    width: 20%;
+    z-index: 1;
+}
+
+#header_contact{
+    float: left;
+    vertical-align: top;
+    width: 40%;
+    margin-top: 15px;
+}
+
+#list_contact {
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#contact_btn {
+    color: white;
+    background-color: #BB131F;
+}
+
+    #social {
+        width: 25%;
+    }
+
+    #logo_section {
+        width: 33%;
+        margin-top: 8px;
+        margin-left: 0px;
+    }
+
+    #header_contact {
+        width: 27%;
+        margin-left: 45px;
+    }
+
+    div#social img {
+        width: 89%;
+    }
+
+    div.logo img {
+        width: 162px;
+    }
+
+    #nav {
+        margin-top: -28px
+    }
+
+    .contact_padding {
+        padding-top: 10px;
+        margin-left: 5px;
+        font-size: 10px;
+        padding-top: unset;
+    }
+
+    li.h_item img {
+        /* display: none */
+        width: 10px;
+        height: 20px;
+    }
+
+    .list_contact {
+        vertical-align: middle;
+    }
+
+    #contact_btn {
+        padding: 3px;
+        font-size: 12px;
+        margin-top: 10px;
+        display: none;
+    }
+
+    div#nav div {
+        padding: 1px;
+        padding-left: 5px;
+        padding-top: 2px;
+    }
+
+     /* banner */
+     #lady {
+        height: 300px;
+    }
+
+    .linetxt {
+        font-size: 14px;
+    }
+
+    .second_txt{
+        font-size: 13px;
+    }
+
+    #ques1 {
+        width: 174px;
+        margin-left: 16px;
+    }
+
+    #ques2{
+        width: 150px;
+        margin-left: 75px;
+        margin-bottom: 70px;
+    }
+
+    #line1 {
+        margin-top: 56px;
+        margin-left: 18px;
+        width: 107%;
+    }
+
+    #line2 {
+        width: 113%;
+        margin-left: 71px;
+    }
+
+    #line3 {
+            width: 107%;
+            margin-left: 117px;
+    }
+
+
+    /* card layout */
+
+    #card_section_content {
+        width: 300px;
+    }
+
+    .card {
+        width: 276px;
+        height: 284px;
+    }
+
+    .card_img {
+        height: 128px;
+    }
+
+    .highlighted_card {
+        text-align: center;
+        display: block;
+    }
+
+    .right_part_highlighted {
+        float: unset;
+    }
+
+    #card_section {
+        text-align: center;
+    }
+
+    /* donate section */
+    #donate_section{
+    height: 83px;
+    width: 100%;
+    padding: 30px 0;
+}
+
+#donate_section_content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#donate_msg {
+    background-color: #383737;
+    color: white;
+    font-size: 22px;
+    width: 40%;
+    padding: 15px;
+    float: left;
+    
+}
+
+#donate_divider {
+    float: left;
+}
+
+div#donate_divider img {
+    height: 82px;
+}
+
+#donate_lines {
+    float: left;
+    padding:10px 2px;
+}
+
+.d_line {
+    margin: 5px;
+    font-size: 17px;
+}
+
+#donate_btn {
+    background-color: #BA141F;
+    transform: skew(0deg);
+    float: left;
+    color: white;
+    padding: 15px;
+}
+
+#donate_btn_txt {
+    transform: skew(-20deg);
+}
+
+    #donate_section{
+        height: 190px;
+        width: 100%;
+        padding: 30px 0;
+    }
+    #donate_msg {
+        width: 90%;
+        text-align: center;
+    }
+    #donate_lines{
+        width: 100%;
+        text-align: center;
+    }
+    #donate_btn{
+        margin: 0 65px;
+    }
+
+    div#donate_divider img {
+        display: none;
+    }
+
+    /* Upcoming events */
+
+    .div4_part1 {
+        width: 300px;
+    }
+
+    #view_all_event_btn {
+        margin-top: 10px;
+    }
+    
+    .form {
+        width: 285px;
+    }
+
+    #textblock3 {
+        width: 227px;
+    }
+
+    #textblock4 {
+        width: 227px;
+    }
+
+    #sub_ques_btn {
+        font-size: 17px;
+        width: 194px;
+    }
+
+    .textback {
+        width: 106px;
+    }
+
+    /* Contact us */
+    #right_part {
+        margin-left: unset;
+    }
+
+    #left_part{
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    #contact_img {
+        width: 286px;
+    }
+
+    form {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    #form_left_side {
+        float: unset;
+    }
+
+    #form_right_side {
+        float: unset;
+        margin-left: 0px;
+    }
+
+    /* footer */
+    div#copyright div {
+        margin-left: unset ;
+    }
+
+}
